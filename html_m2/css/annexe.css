@@ -1,0 +1,49 @@
+tr,th
+{
+    border: solid blue;
+    padding: 30px;
+    width: 30%;
+}
+
+.titre 
+{
+    background-color: lightblue;
+    color: black;
+}
+
+
+div
+{
+    border: solid green;
+    padding: 150px;
+}
+
+h1
+{
+    color: blue;
+}
+
+.img
+{
+    width: 100%;
+    
+}
+
+.timg
+{
+    border: solid gray;
+    width: 5%;
+}
+
+.t2
+{
+    border: solid blue;
+    padding: 10px;
+  
+}
+
+.t5img
+{
+    border: solid gray;
+    width: 5%;
+}

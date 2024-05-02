@@ -1,0 +1,28 @@
+.btn
+{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    color: white;
+    border: solid coral;
+    font-family: Arial;
+    border-radius: 10px;
+    font-size: 30px;
+    
+}
+.btn:hover
+{
+   scale: 1.1;
+   transition: all 0.5s ease;
+    background-color: rgb(78, 120, 199);
+    color: white;
+    border: solid rgb(180, 89, 56);
+    font-family: Arial;
+    
+}
+.bouton
+{
+   text-align: center;
+   position: relative;
+   top: 150px;
+}

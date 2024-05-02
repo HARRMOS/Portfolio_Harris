@@ -1,0 +1,35 @@
+.d1
+{
+	float: left;
+	height: 300px;
+	background-color: lightgreen;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	width: 200px;
+}
+
+.d2
+{
+	float: left;
+	height: 300px;
+	background-color: lightblue;
+	margin: 0 10px;
+	border-radius: 10px;
+	width: 200px;
+		resize: both;
+}
+
+.d3
+{
+	float: left;
+	clear: both;
+	height: 300px;
+	background-color: coral;
+	border-radius: 10px;
+	width: 200px;
+}
+
+p{
+	text-align: center;
+
+}

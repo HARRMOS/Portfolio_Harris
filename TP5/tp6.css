@@ -1,0 +1,33 @@
+div
+{
+	border: solid coral;
+	height: 300px;
+	text-align: center;
+	width: 20%;
+	margin:  10% 40%;
+	border-radius: 10px; 
+}
+
+h1
+{
+	text-align: center;
+}
+
+button
+{
+	border: solid transparent;
+	color: white;
+	background-color: cornflowerblue;
+	border-radius: 5px;
+	margin: 10px 10px;
+
+}
+
+button:hover
+{
+
+	color: white;
+	background-color: green;
+	
+
+}

@@ -1,0 +1,31 @@
+h1.som
+{
+	color: rgb(255, 255, 255);
+	margin: auto;
+	text-align: center;
+}
+.title
+{
+	color: rgb(255, 255, 255);
+
+	margin: auto;
+	text-align: center;
+}
+
+.titre
+{
+	width: 30%;
+}
+
+.nom
+{
+	margin: auto;
+	width: 40%;
+	margin-top: -38px;
+	
+}
+body
+{
+	background: linear-gradient(to top left, #ffff00 0%, #00ccff 100%);
+}
+

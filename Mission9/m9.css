@@ -1,0 +1,125 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.td
+{
+    float: left;
+    margin: 0 50px;
+}
+
+#fac
+{
+    float: left;
+    clear: both;
+}
+
+.gauche
+{
+    position: absolute;
+    left: 30px;
+ 
+    float: left;
+}
+
+.droite
+{
+    top: 30px;
+    right: 30px;
+    position: absolute;
+    float: left;
+}
+
+header
+{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+
+.destinataire
+{
+    position: absolute;
+    left: 50px;
+    width: 30%;
+}
+
+.envoyer
+{
+   
+    position: absolute;
+    right: 250px;
+    width: 30%;
+}
+body
+{
+    background-color: lightskyblue;
+}
+
+.desc
+{
+   width: 122%;
+   
+   
+}
+
+.fac
+{
+  
+}
+#s1
+{
+    float: left;
+    margin: 0 20px;
+    
+}
+.s2
+{
+    float: left;
+    margin: 0 20px;
+    
+
+}
+.s3
+{
+    float: left;
+    margin: 0 20px;
+}
+.s4
+{
+    float: left;
+    margin: 0 20px;
+}
+
+
+ 
+
+.btn
+{
+  background-color: rgb(195, 133, 40);
+  margin: 10px;
+  padding: 5px;
+  color: aliceblue;
+  border-radius: 5px;
+  border: transparent;
+  
+
+}
+.btn:hover
+{
+  background-color: rgb(207, 151, 67);
+  color: rgb(43, 139, 223);
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.fin
+{
+    float: right;
+    position: absolute;
+    right: 120px;
+  
+}
+
+

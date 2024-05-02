@@ -1,0 +1,81 @@
+*
+{
+    text-decoration-line: none ;
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+
+h1
+{
+    text-align: center;
+    
+    
+
+}
+
+h3
+{
+    color: coral;
+}
+
+.p1
+{
+    font-size: 20px;
+    color: blue;
+}
+
+.bouton
+{
+  text-align: center;
+}
+a , .reset
+{
+    background-color: cornflowerblue;
+    padding: 2px;
+    border-radius: 5px;
+    color: black;
+    border: solid transparent;
+}
+a:hover
+{
+    background-color: rgb(239, 239, 239);
+
+    color: black;
+    transition: all 3s;
+}
+.reset:hover
+{
+    background-color: rgb(239, 239, 239);
+    color: black;
+    transition: all 3s;
+}
+.r
+{
+    color: red;
+}
+
+
+path
+{
+    stroke-dasharray: 1000px;
+    stroke-dashoffset: 1000px;
+    animation: anim 5s ease forwards;
+    transition: all 5s;
+    stroke: coral;
+    left: 50%;
+}
+
+@keyframes anim 
+{
+    to{
+        stroke-dashoffset: 0;
+    }   
+}
+
+
+
+
+
+

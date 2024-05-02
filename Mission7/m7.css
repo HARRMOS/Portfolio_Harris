@@ -1,0 +1,52 @@
+.banniere
+{
+    color: coral;
+    border: solid cornflowerblue;
+    height: 100px;
+    width: 90%;
+    margin: 50px 70px;
+    border-radius: 10px;
+}
+body
+{
+   background-color: blanchedalmond; 
+}
+
+.footer
+{
+    border: solid cornflowerblue;
+    color: coral;
+    margin: 20px 0;
+    height: 80px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.iframe
+{
+    border: solid coral;
+    background-color: bisque;
+    border-radius: 5px;
+}
+
+.i1
+{
+    border: solid lightcoral;
+    border-radius: 5px;
+}
+
+.i2
+{
+    border: solid transparent;
+    overflow-y: hidden;
+    border-radius: 5px;
+}
+
+img
+{
+
+ position: absolute;
+ right:0px;
+ top: 200px; 
+ width: 15%;  
+}

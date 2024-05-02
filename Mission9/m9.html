@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="m9.css">
+    <script src="m9.js"></script>
+</head>
+<body>
+    <header>
+        <div class="gauche">
+        <img src="" alt="">
+        <h2>Nom de la compagnie</h2>
+        <p>adresse postale</p> <br>
+        <p>details du contrat</p>
+        </div>
+        <div class="droite">
+        <h1>FACTURE</h1>
+        <br> <p>26/02/2023</p><hr>
+        </div>
+    </header> <br> <br> <br> <br>
+
+    <div class="destinataire">
+        <h3>Destinataire</h3> <hr> <br>
+        <h2>
+            Nom :&emsp;&emsp; <input placeholder="" type="text" name="name" class="name"><br>
+            Société : <input placeholder="" type="text" name="societe" class="soc"><br>
+            Adresse postale : <input placeholder="" type="text" name="adr" class="adr"><br>
+            Téléphone : <input placeholder="" type="text" name="tel" class="tel"><br>
+            Email : <input placeholder="" type="text" name="email" class="email">
+        </h2>
+    </div>
+
+    <div class="envoyer">
+        <h3>Envoyer a</h3> <hr> <br>
+        <h2>
+            Nom : <input placeholder="" type="text" name="name" class="name"><br>
+            Société : <input placeholder="" type="text" name="societe" class="soc"><br>
+            Adresse postale : <input placeholder="" type="text" name="adr" class="adr"><br>
+            Téléphone : <input placeholder="" type="text" name="tel" class="tel"><br>
+            Email : <input placeholder="" type="text" name="email" class="email">
+        </h2>
+    </div>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br><br> <br> <br> <br>
+
+<table id="dd" >
+	<tr id="txt">
+		<td class="td"> Description :</td>
+		<td class="td"> Prix :</td>
+		<td class="td"> Quantité :</td>
+		<td class="td"> Total:</td>
+	</tr>
+    <tbody id="ttbd"> 
+	<tr id="fac">
+		<td><input type="text" name="a1" placeholder="Entrez un article"></td>
+		<td><input type="number" name="prix" id="p1" placeholder="0"></td>
+		<td><input type="number" name="quantite" id="q1" placeholder="0"></td>
+		<td><input type="number" name="t1" id="r1" placeholder="Resultat" readonly></td>
+	</tr>
+    </tbody>
+	
+	<tr>
+		
+		
+		<td><input type="number" name="r4" id="r4" placeholder="Total" readonly></td>
+	</tr>
+</table>
+
+
+
+ 
+    
+<div class="fin"> 
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;SOUS-TOTAL: <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;REMISE: <br>
+    SOUS-TOTAL MOINS LES REMISES: <br>
+    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; TAUX D'IMPOSITION: <br>
+    &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;TAXE TOTALE: <br>
+<hr>
+    SOLDE DU 
+</div>
+                
+   
+               
+        
+    
+    
+
+<footer> <div class="">
+<button class="btn" type="submit" onclick="calculer()"> Calculer</button>
+<button class="btn" type="submit" onclick="Ajout_ligne()"> Ajouter une ligne</button>
+<button class="btn" type="submit" onclick="remplir()"> Remplire Automatiquement</button>
+<button class="btn" type="submit" onclick="Annuler()"> Annuler</button>
+    </div>  </footer>
+
+</body>
+</html>
