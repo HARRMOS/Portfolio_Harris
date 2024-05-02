@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/svg+xml" href="public/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js"></script>
+    
+  </head>
+  <header class="bg-[#131415] z-50  top-0 w-full shadow">
+    <nav id="nav-bar" class="bg-[#131415] max-w-full relative top-0 mx-auto  p-6 flex items-center justify-between">
+      <a href="top" class=" text-white" >M. Harris</a>
+      <button class="cursor-pointer w-7 md:hidden" aria-expanded="false" id="menu-btn">
+        <img src="/All_Images/images/categorie.png" alt="">
+      </button>
+      <ul id="ul-nav" class="roboto w-full absolute top-full left-0 -translate-y-full -z-10 text-white border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
+        <li class="py-4 md:py-0 md:mr-6">
+          <a href="" class="text-sm uppercase font-semibold w-full text-green-700">Accueil</a>
+        </li>
+        <li class="py-4 md:py-0 md:mr-6">
+          <a href="" class="text-sm uppercase font-semibold w-full hover:text-green-700">Portfolio</a>
+        </li>
+        <li class="py-4 md:py-0 md:mr-6">
+          <a href="" class="text-sm uppercase font-semibold w-full hover:text-green-700">Contacts</a>
+        </li> 
+      </ul>
+    </nav>
+  </header>
+  <body class="bg-[#131415]" >
+   
+
+      <!--<nav id="nav" class="dark:bg-neutral-800 mr-24 max-w-full relative top-0 mx-auto  p-6 flex items-center justify-between">
+        <ul class=" w-full absolute top-full left-0 -translate-y-full -z-10 text-black border-b border-gray-200 flex flex-col items-center md:static md:z-10 md:w-min md:transform-none md:border-none md:flex-row">
+            <li class=" md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">HTML & CSS </a>
+                <ul class="hidden absolute dark:bg-neutral-800 w-[30%] p-[10px] rounded-md">
+                   <li><a href="#">TP1 (absent)</a></li>
+                  <li><a href="#">TP 2 (absent)</a></li>
+                  <li><a href="#">TP 3 </a></li>
+                  <li><a href="Tp4/index.html">TP4 </a></li>
+                  <li><a href="TP5/index.html">TP5 </a></li>
+                  <li><a href="TP5/tp5.2.html">TP5.1 </a></li>
+                  <li><a href="TP5/tp5.3.html">TP5.2 </a></li>
+                  <li><a href="TP5/tp5_note.html">TP5.3 </a></li>
+                  <li><a href="tp6/index.html">TP6 bootstrap</a></li>
+                </ul>
+            </li>
+            <li class="py-4 md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">Javascript</a>
+                <ul class="hidden absolute dark:bg-neutral-800 w-[20%] p-[10px] rounded-md">
+                   <li><a href="tp6/page principale/index.html">TP6.1</a></li>
+                  <li><a href="Tp7/.html">TP 7  </a></li>
+                  <li><a href="tp7/.html">TP 7  1</a></li>
+                  <li><a href="tp8/.html">TP 7  </a></li>
+                  <li><a href="Tp8/tp8.html">TP 8   </a></li>  
+                </ul>
+            </li>
+            <li class="py-4 md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">Base de données</a>
+                <ul class="hidden absolute dark:bg-neutral-800 w-[20%] p-[10px] rounded-md">
+                   <li><a href="base_données/location_voiture.html">tp1 Location_voiture</a></li>
+                  <li><a href="base_données/cinema.html">TP2 Cinema</a></li>
+                  <li><a href="base_données/requete_biblioV2/index.html">BibliothequeV2</a></li>
+                  <li><a href="base_données/pays_bd/index.html">Requete_pays_bd</a></li>
+                </ul>
+            </li>
+            <li class="py-4 md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">PHP</a>
+                 <ul class="hidden absolute dark:bg-neutral-800 w-[20%] p-[10px] rounded-md">
+                <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+               <li><a href="#"></a></li>
+                  </ul>
+         </li>
+             <li class="py-4 md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">Missions</a>
+                    <ul class="hidden absolute dark:bg-neutral-800 w-[20%] p-[10px] rounded-md">
+                       <li><a href="#">Mission 1 (absent)</a></li>
+                      <li><a href="html_m2/index.html"> Mission2 </a></li>
+                      <li><a href="Html_Mission3/index.html"> Mission3 </a></li>
+                      <li><a href="HTML_Mission_4/index.html"> Mission4 </a></li>
+                      <li><a href="#">Mission 5 & 6</a></li>
+                      <li><a href="Mission7/mission7.html">Mission 7 </a></li>
+                      <li><a href="Mission_8/m8.html"> Mission 8   </a></li>
+                      <li><a href="Mission9/m9.html"> Mission 9  </a></li>
+                    </ul>
+            </li>
+            <li class="py-4 md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">Certifications</a>
+                <ul class="hidden absolute dark:bg-neutral-800 w-[20%] p-[10px] rounded-md">
+                   <li><a href="certif/MODULE 1 _ LE RGPD ET SES NOTIONS CLÉS_Attestation du Module 1.pdf">Module 1</a></li>
+                  <li><a href="certif/module 2.pdf">Module 2</a></li>
+                  <li><a href="certif/MODULE 3 _ LES RESPONSABILITES DES ACTEURS_Attestation du Module 3.pdf">Module 3</a></li>
+                  <li><a href="certif/MODULE 4 _ LE DPO ET LES OUTILS DE LA CONFORMITÉ_Attestation du Module 4.pdf">Module 4</a></li>
+                  <li><a href="certif/MODULE 5 _ LES COLLECTIVITÉS TERRITORIALES_Attestation du Module 5.pdf">Module 5</a></li>
+                   <li class="c2"><a href="">Mission10</a>
+                    <ul class="mooc">
+                      <li><a href="mission10/COMPTE_RENDU_4module.pdf" target="_blank">Compte_rendue</a></li>
+                     <li><a href="mission10/DEF_COMPTE_RENDU.pdf"target="_blank">DEF_Compte_rendue</a></li>
+                      </ul>
+                   </li>
+                </ul>
+        </li>
+        <li class="py-4 md:py-0 md:mr-6 no-underline list-none"><a class="a1" href="#">Concepteur</a>
+          <ul class="hidden absolute dark:bg-neutral-800 w-[20%] p-[10px] rounded-md">
+             <li><a href="Concepteur/Biblio.html"> Tp1_Biblioteque</a></li>
+            <li><a href="Requete_PHP/REquete_php.docx"> TP1_REQUETE_SQL</a></li>
+            <li><a href="#"> </a></li>
+            <li><a href="#"> </a></li>
+            <li><a href="#"> </a></li>
+          </ul>
+  </li>
+      </ul>
+    </ul>
+    </nav>  !-->
+
+
+    <!-- Div gauche presentation -->
+    <section class="bg-[#131415] ">
+    <div id="first_div" >
+      <div id="presentation" class="w-[50%] m-[10%]  ">
+        <h2 class="text-6xl poppins font text-white text-left">MOHAMMAD Harris</h2> <br>
+        <h3 class="text-left text-2xl text-[#2D5039] font-bold ">Étudiant</h3> <br> <br>
+        <p class="poppins text-white text-sm md:text-base">
+          Enthousiaste étudiant en première année de BTS Services Informatiques aux Organisations, je suis passionné par le monde de la programmation et de la technologie. Toujours avide de nouvelles connaissances et de défis, je m'investis pleinement dans mes études pour acquérir les compétences nécessaires afin de devenir un professionnel accompli dans le domaine de l'informatique. Ma curiosité naturelle et ma dynamique personnalité me poussent à explorer différents langages de programmation et à rechercher des solutions innovantes pour résoudre les problèmes. Je suis convaincu que l'apprentissage continu et l'engagement sont essentiels pour réussir dans ce domaine en constante évolution, et je suis déterminé à atteindre mes objectifs avec passion et détermination.
+      </p> <br><br>
+        <a href="#" class="text-white font-bold border-2 p-2 rounded-2xl hover:text-[#2D5039] hover:border-[#2D5039]"> Portfolio</a>
+      </div> 
+    </div>
+   
+   </section>
+  
+  <section  class="flex relative w-full  bg-slate-500">
+    <div id="second_div" class="w-full mb-52 mt-36 text-center">
+      <div id="div1" class="w-full mt-[10%] mb-[25%] flex-col justify-center  items-center  ">
+        <h2 class="text-6xl poppins font text-white text-center">Languages</h2> <br>
+         <br> <br>
+       <center> 
+        <div class="md:flex md:items-center md:justify-center gap-6">
+        <div class="bg-zinc-200 mb-10 w-[250px] h-[55px] rounded-xl   shadow-black shadow-md   flex items-center  ">
+          <img class="w-[20%]  text-left " src="images/html.png" alt=""> <h2 class="font-bold ml-14">HTML</h2>
+        </div>
+        <div class="bg-zinc-200 mb-10 w-[250px] h-[55px] rounded-xl   shadow-black shadow-md   flex items-center "> 
+          <img class="w-[20%]  text-left" src="images/css.png" alt="">  <h2 class="font-bold ml-14">CSS</h2>
+        </div> <br>
+        <div class="bg-zinc-200 mb-10 w-[250px] h-[55px] rounded-xl   shadow-black shadow-md   flex items-center ">
+          <img class="w-[17%] ml-2  text-left" src="images/js.png" alt="">  <h2 class="font-bold ml-14">Javascript</h2>
+         </div>
+        <div class="bg-zinc-200 mb-10 w-[250px] h-[55px] rounded-xl   shadow-black shadow-md   flex items-center ">
+          <img class="w-[20%]  text-left" src="images/sql.png" alt="">  <h2 class="font-bold ml-14">SQL</h2>
+        </div>
+      </div>
+
+        <h2 class="text-6xl poppins font text-white text-center">Outils</h2> <br>
+         <br> <br>
+       <center> 
+        <div class="md:flex md:items-center md:justify-center gap-6"> 
+        <div class="bg-zinc-200 mb-10 w-[250px] h-[55px] rounded-xl   shadow-black shadow-md   flex items-center  ">
+          <img class="w-[20%] ml-2 text-left " src="images/vs-code.png" alt=""> <h2 class="font-bold ml-14">VsCode</h2>
+        </div>
+        <div class="bg-zinc-200 mb-10 w-[250px] h-[55px] rounded-xl   shadow-black shadow-md   flex items-center "> 
+          <img class="w-[12%] ml-4 text-left" src="images/figma.png" alt="">  <h2 class="font-bold ml-14">Figma</h2>
+        </div>
+        <div class="bg-zinc-200 mb-10 w-[250px] h-[55px] rounded-xl   shadow-black shadow-md   flex items-center ">
+          <img class="w-[25%]   text-left" src="images/GitHub.png" alt="">  <h2 class="font-bold ml-14">Github</h2>
+         </div>
+      </div>
+      </div> </center>
+      
+    </div>
+    <div class="wave-top">
+      <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path fill="#131415" d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+      </svg>
+    </div>
+   </section>
+
+   
+    <section class=" bg-slate-800 relative flex justify-center" > 
+      <div id="third_div" class="mt-36">
+        <h2 class="text-6xl mb-8 text-white font-poppins">Mes Projets</h2>
+        <div id="div1" class="bg-slate-900 border-4 rounded-xl shadow-black shadow-md mb-16 w-full">
+            <div id="p1" class="flex flex-col items-start p-8">
+                <div class="flex items-center justify-between w-full mb-8">
+                    <h2 class="text-2xl text-white font-madimi">Projet Zoo</h2>
+                    <div class="flex">  <img class="w-12" src="images/html.png" alt=""><img class="w-12" src="images/css.png" alt=""> <img class="w-12" src="images/js.png" alt=""></div>
+                </div>
+                <p class="text-white text-justify max-w-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet autem voluptatibus tempore velit minus repudiandae natus, ab necessitatibus at. Eveniet blanditiis alias recusandae repudiandae exercitationem soluta vel, quibusdam iusto natus?</p>
+                <input class="mt-8 px-4 py-2 text-white bg-slate-400 rounded-md hover:bg-slate-500 cursor-pointer" type="button" value="Voir le site">
+            </div>
+        </div>
+
+        <div id="div2" class="bg-slate-900 border-4 rounded-xl shadow-black shadow-md mb-16 w-full">
+          <div id="p2" class="flex flex-col items-start p-8">
+              <div class="flex items-center justify-between w-full mb-8">
+                  <h2 class="text-2xl text-white font-madimi">Projet Scolarite</h2>
+                  <div class="flex">  <img class="w-12" src="images/html.png" alt=""><img class="w-12" src="images/css.png" alt=""> <img class="w-12" src="images/js.png" alt=""></div>
+              </div>
+              <p class="text-white text-justify max-w-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet autem voluptatibus tempore velit minus repudiandae natus, ab necessitatibus at. Eveniet blanditiis alias recusandae repudiandae exercitationem soluta vel, quibusdam iusto natus?</p>
+              <a class="mt-8 px-4 py-2 text-white bg-slate-400 rounded-md hover:bg-slate-500 cursor-pointer" target="_blank" href="http://scolariteharris.infinityfreeapp.com/">Voir le site </a>
+          </div>
+      </div>
+
+      <div id="div3" class="bg-slate-900 border-4 rounded-xl shadow-black shadow-md mb-16 w-full">
+        <div id="p3" class="flex flex-col items-start p-8">
+            <div class="flex items-center justify-between w-full mb-8">
+                <h2 class="text-2xl text-white font-madimi">Projet E-commerce</h2>
+                <div class="flex gap-5">  <img class="w-10" src="images/html.png" alt=""><img class="w-12 " src="images/Tailwind.png" alt=""> <img class="w-12" src="images/js.png" alt=""></div>
+            </div>
+            <p class="text-white text-justify max-w-xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet autem voluptatibus tempore velit minus repudiandae natus, ab necessitatibus at. Eveniet blanditiis alias recusandae repudiandae exercitationem soluta vel, quibusdam iusto natus?</p>
+            <a class="mt-8 px-4 py-2 text-white bg-slate-400 rounded-md hover:bg-slate-500 cursor-pointer" target="_blank" href="http://harrisecommerce.infinityfreeapp.com/?i=1">Voir le site </a>
+        </div>
+    </div>
+    </div>
+    
+
+      <div class="wave-top">
+        <svg fill="#64748b" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z" opacity=".25" class="shape-fill"></path>
+            <path d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z" opacity=".5" class="shape-fill"></path>
+            <path d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    </section>
+    
+    
+
+   
+ 
+  </body>
+</html>
